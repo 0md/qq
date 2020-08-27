@@ -13,7 +13,7 @@
 
 #### 使用说明
 
-1.  docker run -ti -d --name novnc -v /opt/xiaolz/main/data:/opt/xiaolz/main/data -p 9000:8080 -p 10429:10429 -e VNC_PASSWD=xiaolz xiaolz
+1.  docker run -ti -d --name xiaolz -v /opt/xiaolz/main/data:/opt/xiaolz/main/data -p 9000:8080 -p 10429:10429 -e VNC_PASSWD=xiaolz xiaolz
 
 #### 参与贡献
 
