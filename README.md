@@ -15,11 +15,14 @@
 
 #### 安装教程
 
-1.  docker build -t xiaolz .
+1. ```git clone https://gitee.com/hhding/docker-xiaolz.git```
+2. ```cd docker-xiaolz```
+3. ```chmod +x ./get_novnc.sh && ./get_novnc.sh```
+4. ```docker build -t xiaolz .```
 
 #### 使用说明
 
-1.  docker run -ti -d --name xiaolz -v /opt/xiaolz/main/data:/opt/xiaolz/main/data -p 9000:8080 -p 10429:10429 -e VNC_PASSWD=xiaolz xiaolz
+1.  ```docker run -it -d --name xiaolz -v /opt/xiaolz/main/data:/opt/xiaolz/main/data -p 9000:8080 -p 10429:10429 -e VNC_PASSWD=xiaolz xiaolz```
 
 #### 参与贡献
 
