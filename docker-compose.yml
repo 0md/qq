@@ -1,0 +1,13 @@
+version: '2'
+services:
+  xiaolz:
+    container_name: xiaolz
+    restart: always
+    ports:
+        - "9000:8080"
+        - "10429:10429"
+    volumes:
+      - /opt/xiaolz/main/data:/opt/xiaolz/main/data
+    image: xiaolz
+    environment:
+      - VNC_PASSWD=xiaolz
