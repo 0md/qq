@@ -25,6 +25,11 @@
 1. 运行 ```docker-compose -d up``` 或者 ```docker run -it -d --name xiaolz -v /opt/xiaolz/main/data:/opt/xiaolz/main/data -p 9000:8080 -p 10429:10429 -e VNC_PASSWD=xiaolz xiaolz```
 2. 访问 http://ip_of_host:9000
 
+#### 如何调试
+
+1. 运行 ```docker-compose up```，看日志
+2. ```docker exec -ti xiaolz bash``` 进入容器来调试
+
 #### 参与贡献
 
 1.  Fork 本仓库
