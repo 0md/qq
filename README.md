@@ -22,7 +22,11 @@
 
 #### 使用说明
 
-1.  ```docker run -it -d --name xiaolz -v /opt/xiaolz/main/data:/opt/xiaolz/main/data -p 9000:8080 -p 10429:10429 -e VNC_PASSWD=xiaolz xiaolz```
+1. ```docker-compose -d up```
+
+或者
+
+1. ```docker run -it -d --name xiaolz -v /opt/xiaolz/main/data:/opt/xiaolz/main/data -p 9000:8080 -p 10429:10429 -e VNC_PASSWD=xiaolz xiaolz```
 
 #### 参与贡献
 
