@@ -9,7 +9,7 @@ RUN \
 RUN addgroup -S admin && adduser -D -G admin -s /bin/bash admin 
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 ADD noVNC /opt/noVNC
-ADD websockify /opt/noVNC/utils
+ADD websockify /opt/noVNC/utils/websockify
 ADD xiaolz /opt/xiaolz
 
 EXPOSE 8080 10429
