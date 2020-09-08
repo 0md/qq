@@ -27,9 +27,8 @@
 
 #### 如何调试
 
-1. docker logs xiaolz 看日志
-2. 运行 ```docker-compose up``` 不退出的情况下看日志
-3. ```docker exec -ti xiaolz bash``` 进入容器来调试
+1. ```docker logs xiaolz``` 看日志
+2. ```docker exec -ti xiaolz bash``` 进入容器来调试
 
 #### 参与贡献
 
