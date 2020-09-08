@@ -17,7 +17,7 @@
 
 1. ```git clone https://gitee.com/hhding/docker-xiaolz.git```
 2. ```cd docker-xiaolz```
-3. ```chmod +x ./get_novnc.sh && ./get_novnc.sh```
+3. ```bash ./get_novnc.sh```
 4. ```docker build -t xiaolz .```
 
 #### 使用说明
@@ -27,8 +27,9 @@
 
 #### 如何调试
 
-1. 运行 ```docker-compose up```，看日志
-2. ```docker exec -ti xiaolz bash``` 进入容器来调试
+1. docker logs xiaolz 看日志
+2. 运行 ```docker-compose up``` 不退出的情况下看日志
+3. ```docker exec -ti xiaolz bash``` 进入容器来调试
 
 #### 参与贡献
 
